@@ -5,10 +5,12 @@ import './navBar.css'
 const NavBar = () => {
   return (
     <nav>
-    <NavLink className="newYorkTimesBackButton" to ={'/'}>
+    <NavLink className="dailyBugleBackButton" to ={'/'}>
         <button className="logo-button"><img className="logo-img" src="https://www.pngitem.com/pimgs/m/631-6315006_daily-bugle-black-and-white-hd-png-download.png" alt='spiderman workplace logo'/></button>
     </NavLink>
-    <h1 className="header-title">The Daily Bugle</h1>
+    <NavLink to={'/'} style={{textDecoration: 'none'}}>
+        <h1 className="header-title">The Daily Bugle</h1>
+    </NavLink>
     <div className="search">
       <div className="search-container">
         <div className="searchInputWrapper">
