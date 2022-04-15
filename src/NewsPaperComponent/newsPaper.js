@@ -8,6 +8,7 @@ const NewsPapers = ({newsArticles}) => {
         key={index + 1}
         thumbNail={newsArticle.multimedia[2].url}
         title={newsArticle.title}
+        id={newsArticle.created_date}
      />
     )
   })
