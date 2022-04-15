@@ -6,7 +6,7 @@ const NewsArticle = ({thumbNail, title, id}) => {
       <img src={thumbNail} alt="A news article brought to you by the daily bugle"/>
       <p>{title}</p>
       <NavLink to={`/DailyBugle/ArticleId:/${id}`}>
-        <button>View More</button>
+        <button className="ViewMore">View More</button>
       </NavLink>
     </div>
   )
