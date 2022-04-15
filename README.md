@@ -1,4 +1,4 @@
-# Getting Started with The New York Times
+# Getting Started with The Daily Bugle
 
 ## Table of Contents   
 
@@ -30,9 +30,15 @@ To run this app locally:
 7. Open a second terminal tab and run ```npm run cypress``` (while localhost:3000 is still running) to access the cypress testing for this app
 
 ## Previews
-<img width="1439" alt="Screen Shot 2022-04-14 at 7 17 58 PM" src="https://user-images.githubusercontent.com/29051996/163502678-4b6a27ac-b8f6-47af-b6f8-28728222277c.png">
 
-<img width="1440" alt="Screen Shot 2022-04-14 at 7 18 22 PM" src="https://user-images.githubusercontent.com/29051996/163502708-51c5e883-fa96-4904-8094-c52e19fa6335.png">
+### View the Daily Paper
+<img width="1433" alt="Screen Shot 2022-04-15 at 12 11 20 AM" src="https://user-images.githubusercontent.com/29051996/163529961-7a8f888b-bd60-4557-971f-1f5b90757376.png">
+
+### Upon view more, you can see more information
+<img width="1437" alt="Screen Shot 2022-04-15 at 12 11 35 AM" src="https://user-images.githubusercontent.com/29051996/163530027-3f3de733-342a-4be3-b343-1667c1d5ff2f.png">
+
+### Type in the search by to filter by title
+<img width="1438" alt="Screen Shot 2022-04-15 at 12 11 50 AM" src="https://user-images.githubusercontent.com/29051996/163530123-5089f0c4-44f7-4350-b08e-22c9981fc90c.png">
 
 
 ## api
