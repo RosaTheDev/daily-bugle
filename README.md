@@ -8,7 +8,7 @@
 To run this app locally:
 
 1. fork this repository
-2. run ```git clone git clone git@github.com:newyork-times/newyork-times.git``` in your command line
+2. run ```git clone git clone git@github.com:RosaTheDev/newyork-times.git``` in your command line
 3. Run ```cd newyork-times``` to navigate into the repository
 4. Run ```npm install```
 5. Run ```npm start```
