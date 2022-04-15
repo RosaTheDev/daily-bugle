@@ -1,0 +1,52 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  top: 0;
+  width: 100%;
+  align-self: center;
+  background-color: rgb(34, 32, 32);
+}
+
+.header-title {
+  font-family: 'DM Serif Display', serif;
+  margin: 0%;
+  margin-top: .5%;
+  font-size: 10vh;
+  color: white;
+}
+
+.logo-img,
+.logo-button {
+  width: 20vw;
+  height: 20vh;
+  background: transparent;
+  border: none;
+}
+
+.search {
+  margin-top: 2vh;
+  height: 50%;
+  width: 50%;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchInput {
+  width: 20rem;
+  height: 2rem;
+  padding: 0 1rem;
+  border-radius: 2rem;
+  border: none;
+  transition: transform 0.1s ease-in-out;
+}
+
+.searchInput:focus {
+  outline: none;
+  transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
+}
