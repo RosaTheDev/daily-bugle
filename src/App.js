@@ -5,6 +5,7 @@ import api from './apicall';
 import Articles from './articlesComponent';
 import {Route} from 'react-router-dom';
 import DetailedView from './detailedView';
+import NavBar from './NavComponent/navBar';
 const App = () =>  {
 
   const [results, setResults] = useState();
@@ -15,10 +16,9 @@ const App = () =>  {
 
   console.log(results)
     return (
-      <div className="App">
+      <main className="App">
+        <NavBar />
         <header className="App-header">
-          <h1>The New York Times</h1>
-          <img src={logo} className="App-logo" alt="logo" />
           <Route exact path="/" render={() => results && <Articles newsPapers={results} />} /> 
           <Route exact path="/detailedView/:id" render={({match}) => {
             const filterArticles = results.find((result) => result.created_date === match.params.id)
@@ -30,7 +30,7 @@ const App = () =>  {
         }}
         />
         </header>
-      </div>
+      </main>
     );
 }
 
