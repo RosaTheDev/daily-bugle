@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 import './navBar.css'
 
-const NavBar = () => {
+const NavBar = ({found}) => {
   return (
     <nav>
     <NavLink className="dailyBugleBackButton" to ={'/'}>
@@ -14,7 +14,7 @@ const NavBar = () => {
     <div className="search">
       <div className="search-container">
         <div className="searchInputWrapper">
-          <input onChange={e => console.log(e)} className="searchInput" type="text" placeholder="Search by interest">
+          <input onChange={e => found(e)} className="searchInput" type="text" placeholder="Search by interest">
           </input>
         </div>
       </div>
