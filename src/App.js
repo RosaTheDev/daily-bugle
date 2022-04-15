@@ -13,6 +13,7 @@ const App = () =>  {
     .then(data => setResults(data.results))
   }, []) 
 
+  console.log(results)
     return (
       <div className="App">
         <header className="App-header">

@@ -1,7 +1,6 @@
-import DetailedView from './detailedView';
 import './newsCard.css'
 import { NavLink } from 'react-router-dom';
-const NewsCard = ({title, thumbNail, articleInfo, id}) => {
+const NewsCard = ({title, thumbNail, id}) => {
   return(
     <div className="card" >
       <img src={thumbNail} alt="A news article you cant see" />
