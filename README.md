@@ -31,6 +31,9 @@ To run this app locally:
 
 ## Previews
 
+### Accessbility overview 
+<img width="1436" alt="Screen Shot 2022-04-15 at 9 38 39 AM" src="https://user-images.githubusercontent.com/29051996/163590968-06a76420-da19-4e35-8f9a-347c7c67f8ad.png">
+
 ### View the Daily Paper
 <img width="1433" alt="Screen Shot 2022-04-15 at 12 11 20 AM" src="https://user-images.githubusercontent.com/29051996/163529961-7a8f888b-bd60-4557-971f-1f5b90757376.png">
 
